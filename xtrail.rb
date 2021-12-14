@@ -1,4 +1,4 @@
-class XTrail < Formula
+class Xtrail < Formula
   desc "A command line tool to easily install and browse Xcode templates."
   homepage "https://github.com/tosaka07/XTrail"
   url "https://github.com/tosaka07/XTrail/archive/refs/tags/0.0.1.tar.gz"

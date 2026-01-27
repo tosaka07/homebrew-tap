@@ -1,8 +1,8 @@
 class Gwm < Formula
   desc "A fast and intuitive TUI application for managing git worktrees"
   homepage "https://github.com/tosaka07/gwm"
-  url "https://github.com/tosaka07/gwm/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "642446496d00a044e0218d46d036bef93b42ddf970c893262a73de6f379632b6"
+  url "https://github.com/tosaka07/gwm/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "7de0b9b3a044f2ac9a0f662b3e84c7002399894d19553af30492f1d3e0e6bc81"
   license "MIT"
 
   depends_on "rust" => :build

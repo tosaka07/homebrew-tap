@@ -1,26 +1,26 @@
 class Gwm < Formula
   desc "A fast and intuitive TUI application for managing git worktrees"
   homepage "https://github.com/tosaka07/gwm"
-  version "0.4.1"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tosaka07/gwm/releases/download/v0.4.1/gwm-aarch64-apple-darwin.tar.gz"
-      sha256 "ff175f0560735cef7a6c52b7df068e24a6e24ee43b88bb0c1ceb0e7e63e2e70a"
+      url "https://github.com/tosaka07/gwm/releases/download/v0.5.0/gwm-aarch64-apple-darwin.tar.gz"
+      sha256 "5aba8e752b0da0eda523590ac5a7d89a531a62941cb815d4e667c2fb1063ec33"
     else
-      url "https://github.com/tosaka07/gwm/releases/download/v0.4.1/gwm-x86_64-apple-darwin.tar.gz"
-      sha256 "598a7103658545ce2a7fdd0dd2037b255b08d75277af3d670ad0bab113b94d7f"
+      url "https://github.com/tosaka07/gwm/releases/download/v0.5.0/gwm-x86_64-apple-darwin.tar.gz"
+      sha256 "cfe01b759223c47867db2ab85a5d49721ff15e29a3c401576e6599bcf035bdf5"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tosaka07/gwm/releases/download/v0.4.1/gwm-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "91e7ecf868b763a99f1d63c2ce9a711bfafd67790703fce7cf7f41086fa7df50"
+      url "https://github.com/tosaka07/gwm/releases/download/v0.5.0/gwm-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "06b6b04336c9c10fbc65701235100489f1401d88d96eee2c19e65a1303ca6833"
     else
-      url "https://github.com/tosaka07/gwm/releases/download/v0.4.1/gwm-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8ab2903cbede72f02594c0f94571edd0222d0a5d75f3ea3494fa2ccee309040c"
+      url "https://github.com/tosaka07/gwm/releases/download/v0.5.0/gwm-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "071faf949ee86c45271fff240a3e1a0b2e8df800c98f2a80d54e5fa8bec7c281"
     end
   end
 

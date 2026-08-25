@@ -7,7 +7,7 @@ cask "stay-up" do
   desc "Keeps your Mac awake with the lid closed, only while a task is running"
   homepage "https://github.com/tosaka07/stay-up"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "StayUp.app"
   binary "#{appdir}/StayUp.app/Contents/MacOS/stay-up"
